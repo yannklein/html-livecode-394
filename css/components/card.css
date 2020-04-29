@@ -1,0 +1,58 @@
+.card-container {
+  width: 500px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 16px;
+
+}
+
+.card-image {
+ height: 400px;
+}
+
+.card-image a {
+  display: inline-block;
+  background-color: white;
+  color: gray;
+  border: 1px solid grey;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 16px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card-white:hover .card-image a  {
+  opacity: 1;
+}
+
+.list-inline {
+  list-style: none;
+  text-align: right;
+}
+
+.list-inline > li {
+  display: inline;
+  color: grey;
+  font-size: 24px;
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.card-profile img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.card-profile a {
+  color: grey;
+  font-size: 24px;
+}
